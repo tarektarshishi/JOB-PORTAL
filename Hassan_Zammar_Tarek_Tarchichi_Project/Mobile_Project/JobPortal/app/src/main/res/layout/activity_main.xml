@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_ViewJobs"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="@drawable/btn_color"
+            android:text="View Jobs"
+            android:padding="15dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:translationY="90dp" />
+
+        <Button
+            android:id="@+id/btn_PostJob"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:background="@drawable/btn_color"
+            android:gravity="center"
+            android:text="Post A Job"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:translationY="90dp" />
+
+        <Button
+            android:id="@+id/btn_EditCompany"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:background="@drawable/btn_color"
+            android:gravity="center"
+            android:text="Edit Company"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:translationY="90dp" />
+
+        <Button
+            android:id="@+id/btn_EditJob"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:background="@drawable/btn_color"
+            android:gravity="center"
+            android:text="Edit Job"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:translationY="90dp" />
+
+        <Button
+            android:id="@+id/btn_DeleteJob"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:background="@drawable/btn_color"
+            android:gravity="center"
+            android:text="Delete Job"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:translationY="90dp" />
+    </LinearLayout>
+</LinearLayout>
+
+

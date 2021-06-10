@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Job Portal</string>
+    <string-array name="company">
+        <item>Cname</item>
+        <item>Email</item>
+        <item>Cphone</item>
+    </string-array>
+    <string-array name="job">
+        <item>Jtitle</item>
+        <item>Jdescription</item>
+        <item>Jaddress</item>
+    </string-array>
+</resources>
